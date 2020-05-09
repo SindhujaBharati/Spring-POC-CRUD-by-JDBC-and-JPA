@@ -36,7 +36,7 @@ public class Customer {
 
 	@Id
 	 @Column(name="Id")
-	 @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	 long id;
 	 
 
