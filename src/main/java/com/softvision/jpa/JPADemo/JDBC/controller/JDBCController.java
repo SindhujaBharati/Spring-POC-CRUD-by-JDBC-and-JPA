@@ -38,7 +38,7 @@ public class JDBCController {
 		 
 		 //Get All customers
 		 @GetMapping("/getAlljdbcCustomers")
-		 @Transactional
+		 @Transactional()
 		    public List <Customer> getAllCustomers() {
 		        return customerJDBCRepository.findAll();
 		    }
